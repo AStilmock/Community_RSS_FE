@@ -141,6 +141,13 @@ const IndexPage: React.FC<PageProps> = () => {
     <main>
       <h1>Welcome to Community RSS, the Community Resource Rating Website!</h1>
       <p>Simply enter a valid United States zip code to view all local resource data.</p>
+      <div
+        style={{
+          backgroundColor: 'plum',
+          width: '1000px',
+          height: '1000px'
+        }}
+      />
     </main>
   )
 }

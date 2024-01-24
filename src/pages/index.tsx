@@ -1,5 +1,6 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
+import { Link } from 'gatsby'
 
 // const pageStyles = {
 //   color: "#232129",
@@ -139,14 +140,15 @@ import type { HeadFC, PageProps } from "gatsby"
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main>
-      <div
+      {/* <div
         style={{
           backgroundColor: '#5E2C4D',
           width: '1000px',
           height: '1000px'
         }}
-      />
+      /> */}
       <h1>Welcome to Community RSS, the Community Resource Rating Website!</h1>
+      <Link to="/about">About</Link>
       <p>Simply enter a valid United States zip code to view all local resource data.</p>
     </main>
   )
